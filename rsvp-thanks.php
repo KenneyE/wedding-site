@@ -29,8 +29,9 @@
               <li><a href="#one">About Us</a></li>
               <li><a href="#two">The Venue</a></li>
               <li><a href="#three">Lodging</a></li>
-              <li><a href="#four">CB Activities</a></li>
-              <li><a href="#five">Registries</a></li>
+              <li><a href="#four">Crested Butte</a></li>
+              <li><a href="#five">Activities</a></li>
+              <li><a href="#six">Registries</a></li>
               <li><a href="#work">Gallery</a></li>
               <li><a href="#rsvp">RSVP</a></li>
             </ul>
@@ -38,73 +39,9 @@
 
       </header>
 
-    <!-- Intro -->
-      <section id="intro" class="main style1 dark fullscreen">
-        <div class="content container 75%">
-          <header>
-            <!-- <h2>Eric &amp; Sarah</h2> -->
-            <?php
-            // Change this to YOUR address
-            $recipient = 'ekenney5@gmail.com';
-            $name = $_POST['name'];
-            $attending= $_POST['attending'];
-            $food = $_POST['food'];
-            $notes = $_POST['notes'];
-            $email = "ekenney5@gmail.com";
-
-            $subject = "RSVP from EricLovesSarah.com!";
-            $body = "Names: " . $name . "\r\n\r\n" .
-              "Attending: " . $attending . "\r\n\r\n" .
-                "Food Options: " . $food . "\r\n\r\n" .
-                  "Notes: " . $notes;
-
-
-            # We'll make a list of error messages in an array
-            $messages = array();
-            # CAREFUL: don't allow hackers to sneak line breaks and additional
-            # headers into the message and trick us into spamming for them!
-            $subject = preg_replace('/\s+/', ' ', $subject);
-            # Make sure the subject isn't blank afterwards!
-            if (preg_match('/^\s*$/', $name)) {
-              $messages[] = "Please specify a name for your RSVP.";
-            }
-            # Make sure the message has a body
-            if (preg_match('/^\s*$/', $attending)) {
-              $messages[] = "You didn't tell us if you're attending!";
-            }
-            if (preg_match('/^\s*$/', $food)) {
-              $messages[] = "You didn't tell us what you're eating!";
-            }
-            if (count($messages)) {
-              $subject = "INCOMPLETE RSVP from EricLovesSarah.com";
-              mail($recipient,
-              $subject,
-              $body,
-              "From: Wedding RSVP <$email>\r\n");
-
-              # There were problems, so tell the user and
-              # don't send the message yet
-              echo("<h2>WAIT!</h2><h2>You missed something!</h2>");
-              foreach ($messages as $message) {
-                echo("<h3>$message</h3>\n");
-              }
-              echo("<h3>Please fix these problems and RSVP one more time.</h3>");
-            } else {
-              # Send the email - we're done
-              mail($recipient,
-              $subject,
-              $body,
-              "From: Wedding RSVP <$email>\r\n");
-              echo("<h2>Thanks for the RSVP!</h2>");
-            }
-            ?>
-          </header>
-          <p>We're getting married!</p>
-          <footer>
-            <a href="#one" class="button style2 down">More</a>
-          </footer>
-        </div>
-      </section>
+      <?php
+        include('rsvp-thanks-include.php');
+      ?>
 
     <!-- One -->
       <section id="one" class="main style2 right dark fullscreen">
@@ -123,24 +60,25 @@
           <header>
             <h2>The Venue</h2>
           </header>
-          <p>We're getting married at the Ten Peaks Event Site at Crested Butte Mountain Resort. For guests staying in the town of Crested Butte or at the base of the mountain, shuttles will be running throughout the evening to run you up the hill. They will be stopping at HERE and HERE between TIME and TIME. Please be on a shuttle no later than TIME to be on time for the ceremony.</p>
+          <p>We're getting married at the <strong>Ten Peaks Event Site</strong> at <strong>Crested Butte Mountain Resort</strong>. For guests staying in the town of Crested Butte or at the base of the mountain, shuttles will be running throughout the evening to run you up and down the hill. <br />
+              Stay tuned for details on times and locations of pickups.</p>
         </div>
         <a href="#three" class="button style2 down anchored">Next</a>
       </section>
 
     <!-- Three -->
-      <section id="three" class="main style2 right dark fullscreen">
+      <section id="three" class="main style2 left dark fullscreen">
         <div class="content box style2">
             <h2>Lodging</h2>
           </header>
           <p>Guests will receive <strong>20&#37;</strong> off rooms at Crested Butte Mountain Resorts if booked before <strong>July 13, 2016</strong>.
               <br />
-              To see lodging options, go to: <strong><a class="light" href="http://www.skicb.com/lodging" target="_blank">http://www.skicb.com/lodging</a></strong><br />
+              For lodging, go to: <strong><a class="light" href="http://www.skicb.com/lodging" target="_blank">http://www.skicb.com/lodging</a></strong><br />
         Every guest that stays with the resort gets a free lift ticket!
     </p>
     <p>
-          <strong>To Book:</strong><br />
-          Call: <strong><a href="tel:8443742148" class="light" target="_blank">(844) 374-2148</a></strong> between the hours of 8am-6pm Mountain Time<br />
+          To Book:<br />
+          Call: <strong><a href="tel:8443742148" class="light" target="_blank">(844) 374-2148</a></strong><br />
           Email: <strong><a href="mailto:info@cbmr.com" class="light" target="_blank">info@cbmr.com</a></strong><br />
           Online: <strong><a href="http://www.skicb.com/mygroup" class="light" target="_blank">http://www.skicb.com/mygroup</a></strong> Package Code: <strong>9051</strong><br />
           </p>
@@ -149,29 +87,40 @@
       </section>
 
     <!-- Four -->
-      <section id="four" class="main style2 left dark fullscreen">
+      <section id="four" class="main style2 right dark fullscreen">
         <div class="content box style2">
           <header>
-            <h2>Crested Butte Activities</h2>
+            <h2>About Crested Butte</h2>
           </header>
-          <p>There's so much stuff to do in Crested Butte! You can go shopping on Elk Avenue, go on a hike, rent some mountain bikes, go fishing or just ride a chairlift up and down. Here's some more ideas: <strong><a href="http://www.skicb.com/summer-activities" class="light" target="_blank">http://www.skicb.com/summer-activities</a></strong></p>
+          <p>Crested Butte sits at 8,909 ft. in southwestern Colorado. The highs in August are usually around 74&deg; with lows around 38&deg;. Expect the temperatures during the wedding to be around 70&deg; and drop to mid 60s after sunset. <br />
+        If coming from out of state, you can fly into Denver International Airport. From there, the drive to Crested Butte is 4.5 hours. You can also fly into the Gunnison-Crested Butte Regional Airport, which is only 40 minutes from town. </p>
         </div>
         <a href="#five" class="button style2 down anchored">Next</a>
       </section>
 
     <!-- Five -->
-      <section id="five" class="main style2 left dark fullscreen">
+      <section id="five" class="main style2 right dark fullscreen">
+        <div class="content box style2">
+          <header>
+            <h2>Activities</h2>
+          </header>
+          <p>There's so much stuff to do in Crested Butte! You can go shopping on Elk Avenue, go on a hike, rent some mountain bikes, go fishing or just ride a chairlift up and down. Here's some more ideas: <strong><a href="http://www.skicb.com/summer-activities" class="light" target="_blank">http://www.skicb.com/summer-activities</a></strong></p>
+        </div>
+        <a href="#six" class="button style2 down anchored">Next</a>
+      </section>
+
+
+    <!-- Six -->
+      <section id="six" class="main style2 left dark fullscreen">
         <div class="content box style2">
           <header>
             <h2>Registries</h2>
           </header>
-          <!-- <p>Lorem ipsum dolor sit amet et sapien sed elementum egestas dolore condimentum.
-          Fusce blandit ultrices sapien, in accumsan orci rhoncus eu. Sed sodales venenatis arcu,
-          id varius justo euismod in. Curabitur egestas consectetur magna.</p> -->
-              <ul>
+          <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we want. Your presence is all we ask for. If you still wish to give a gift, we will be adding registries here soon.</p>
+              <!-- <ul>
                   <li><a class="light"href="http://www.rei.com/GiftRegistryDetails/GR124738834">REI</a></li>
                   <li>Crate &amp; Barrel</li>
-              </ul>
+              </ul> -->
         </div>
         <a href="#work" class="button style2 down anchored">Next</a>
       </section>
@@ -210,23 +159,32 @@
         <div class="content container">
           <header>
             <h2>RSVP</h2>
-            <p>Please let us know by SOME DATE HERE whether or not you'll be able to make it.</p>
+            <p>Please let us know by June 30 whether or not you'll be able to make it.</p>
           </header>
-          <div class="box container 75%">
 
+          <div class="box container 75%">
           <!-- RSVP Form -->
               <form method="POST" action="rsvp-thanks.php">
                 <div class="row 50%">
                   <div class="12u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-                  <div class="12u 12u(mobile)">
+
+                <!-- Attending w/ Friday Dinner -->
+                  <!-- <div class="12u 12u(mobile)">
                       <h4>Will You be Attending?</h4>
                       <input type="radio" name="attending" value="Saturday Ceremony &amp; Reception and Welcome Dinner"/>Ceremony &amp; Reception and Friday Welcome Dinner<br>
                       <input type="radio" name="attending" value="Saturday Ceremony &amp; Reception Only" />Ceremony &amp; Reception Only<br>
                       <input type="radio" name="attending" value="Will not be attending" />Will not be able to attend<br>
+                  </div> -->
+
+                  <!-- Attending -->
+                  <div class="12u 12u(mobile)">
+                      <h4>Will You be Attending?</h4>
+                      <input type="radio" name="attending" value="Yes"/>Yes<br>
+                      <input type="radio" name="attending" value="No" />No<br>
                   </div>
 
                   <div class="12u 12u(mobile)">
-                      <h4>Whatcha Eatin'?</h4>
+                      <h4>What are you eating?</h4>
                       <input type="radio" name="food" value="Steak"/>Steak<br>
                       <input type="radio" name="food" value="Fish" />Fish<br>
                       <input type="radio" name="food" value="Veggie" />Vegeterian<br>
@@ -275,13 +233,14 @@
 
       <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-35811349-4', 'auto');
       ga('send', 'pageview');
 
       </script>
+
   </body>
 </html>

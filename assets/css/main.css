@@ -2906,10 +2906,10 @@
 /* Two */
 
   #two {
-    background: url("images/overlay.png"), url("../../images/venue.jpg");
-    background-size: 256px 256px, cover;
-    background-attachment: fixed, fixed;
-    background-position: top left, center center;
+    background:  url("../../images/venue.jpg");
+    background-size:  cover;
+    background-attachment:  fixed;
+    background-position: center center;
   }
 
   #three {
