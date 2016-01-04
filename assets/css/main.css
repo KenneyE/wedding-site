@@ -2913,7 +2913,7 @@
   }
 
   #three {
-    background: url("images/overlay.png"), url("../../images/hawaii3.jpg");
+    background: url("images/overlay.png"), url("../../images/house.jpg");
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top right, center center;
