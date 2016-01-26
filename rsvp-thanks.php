@@ -44,12 +44,12 @@
       ?>
 
     <!-- One -->
-      <section id="one" class="main style2 right dark fullscreen">
+      <section id="one" class="main style2 left dark fullscreen">
         <div class="content box style2">
           <header>
             <h2>About Us</h2>
           </header>
-          <p>We met at the University of Colorado in Boulder in 2008. Less than a year later we started dating and now here we are! Now we live in Denver with our pup Blue.</p>
+          <p>Eric and Sarah met at the University of Colorado in Boulder in 2008. Less than a year later, they started dating. After college, Eric and Sarah moved to Denver where they shared their first apartment with the dog known as The Majestic Blue. In 2015, they bought a home together and adopted Blue's best friend, Sweet Baby Reese. Sarah and Eric enjoy cooking, hiking, camping, 1995 Ford Broncos, and skiing.</p>
         </div>
         <a href="#two" class="button style2 down anchored">Next</a>
       </section>
@@ -60,14 +60,14 @@
           <header>
             <h2>The Venue</h2>
           </header>
-          <p>We're getting married at the <strong>Ten Peaks Event Site</strong> at <strong>Crested Butte Mountain Resort</strong>. For guests staying in the town of Crested Butte or at the base of the mountain, shuttles will be running throughout the evening to run you up and down the hill. <br />
+          <p>We're getting married at the <strong>Ten Peaks Event Site</strong> at <strong>Crested Butte Mountain Resort</strong>. You won't be able to drive yourself to the venue, so shuttles will be running throughout the evening to run you up and down the hill.<br />
               Stay tuned for details on times and locations of pickups.</p>
         </div>
         <a href="#three" class="button style2 down anchored">Next</a>
       </section>
 
     <!-- Three -->
-      <section id="three" class="main style2 left dark fullscreen">
+      <section id="three" class="main style2 right dark fullscreen">
         <div class="content box style2">
             <h2>Lodging</h2>
           </header>
@@ -116,11 +116,11 @@
           <header>
             <h2>Registries</h2>
           </header>
-          <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we want. Your presence is all we ask for. If you still wish to give a gift, we will be adding registries here soon.</p>
-              <!-- <ul>
-                  <li><a class="light"href="http://www.rei.com/GiftRegistryDetails/GR124738834">REI</a></li>
-                  <li>Crate &amp; Barrel</li>
-              </ul> -->
+          <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we want. Your presence is all we ask for. If you still wish to give a gift, we've created the following registries:</p>
+              <ul>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank" href="http://www.rei.com/GiftRegistryDetails/GR124738834">REI</a></li>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="http://www.crateandbarrel.com/gift-registry/eric-kenney-and-sarah-adams/r5442284">Crate &amp; Barrel</a></li>
+              </ul>
         </div>
         <a href="#work" class="button style2 down anchored">Next</a>
       </section>
@@ -146,8 +146,14 @@
                 <div class="6u 12u(mobile)"><a href="images/fulls/balloon_fiesta.jpg" class="image fit from-right"><img src="images/thumbs/balloon_fiesta.jpg" title="Balloon Fiesta" alt="" /></a></div>
               </div>
               <div class="row 0% images">
-                <div class="6u 12u(mobile)"><a href="images/fulls/thailand2.jpg" class="image fit from-left"><img src="images/thumbs/thailand2.jpg" title="Bangkok" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/chiang_mai.jpg" class="image fit from-left"><img src="images/thumbs/chiang_mai.jpg" title="Chiang Mai" alt="" /></a></div>
                 <div class="6u 12u(mobile)"><a href="images/fulls/phiphi.jpg" class="image fit from-right"><img src="images/thumbs/phiphi.jpg" title="Kho Phi Phi" alt="" /></a></div>
+              </div>
+              <div class="row 0% images">
+                <div class="6u 12u(mobile)"><a href="images/fulls/hawaii_balcony.jpg" class="image fit from-left"><img src="images/thumbs/hawaii_balcony.jpg" title="Honolulu" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/luminarias.jpg" class="image fit from-right"><img src="images/thumbs/luminarias.jpg" title="Albuquerque Luminarias" alt="" /></a></div>
+              </div>
+              <div class="row 0% images">
               </div>
             </div>
 
@@ -210,9 +216,9 @@
       <footer id="footer">
 
         <!-- Icons -->
-          <ul class="actions">
+          <!-- <ul class="actions">
             <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-          </ul>
+          </ul> -->
 
         <!-- Menu -->
           <ul class="menu">
