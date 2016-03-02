@@ -1,14 +1,16 @@
 <!DOCTYPE HTML>
 <!--
-  Big Picture by HTML5 UP
-  html5up.net | @n33co
-  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Big Picture by HTML5 UP
+html5up.net | @n33co
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-  <head>
-    <title>Eric Loves Sarah</title>
+<head>
+    <title>Eric Kenney &amp; Sarah Adams Wedding</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Eric Kenney And Sarah Adams - Crested Butte Wedding 2016">
+    <meta name="language" content="english">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -25,31 +27,32 @@
 
     </script>
 
-  </head>
-  <body>
+
+</head>
+<body>
 
     <!-- Header -->
-      <header id="header">
+    <header id="header">
 
         <!-- Logo -->
-          <h1 id="logo"><a href="index.html">Eric &amp; Sarah</a></h1>
+        <h1 id="logo"><a href="index.html">Eric &amp; Sarah</a></h1>
 
         <!-- Nav -->
-          <nav id="nav">
+        <nav id="nav">
             <ul>
-              <li><a href="#intro">Eric &amp; Sarah</a></li>
-              <li><a href="#one">About Us</a></li>
-              <li><a href="#two">The Venue</a></li>
-              <li><a href="#three">Lodging</a></li>
-              <li><a href="#four">Crested Butte</a></li>
-              <li><a href="#five">Activities</a></li>
-              <li><a href="#six">Registries</a></li>
-              <li><a href="#work">Gallery</a></li>
-              <li><a href="#rsvp">RSVP</a></li>
+                <li><a href="#intro">Eric &amp; Sarah</a></li>
+                <li><a href="#one">About Us</a></li>
+                <li><a href="#two">The Venue</a></li>
+                <li><a href="#three">Lodging</a></li>
+                <li><a href="#four">Crested Butte</a></li>
+                <li><a href="#five">Activities</a></li>
+                <li><a href="#six">Registries</a></li>
+                <li><a href="#work">Gallery</a></li>
+                <li><a href="#rsvp">RSVP</a></li>
             </ul>
-          </nav>
+        </nav>
 
-      </header>
+    </header>
 
       <?php
         include('rsvp-thanks-include.php');
@@ -124,16 +127,18 @@
 
     <!-- Six -->
       <section id="six" class="main style2 left dark fullscreen">
-        <div class="content box style2">
-          <header>
-            <h2>Registries</h2>
-          </header>
-          <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we want. Your presence is all we ask for. If you still wish to give a gift, we've created the following registries:</p>
+          <div class="content box style2">
+              <header>
+                  <h2>Registries</h2>
+              </header>
+              <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we are asking for. If you still wish to give a gift, we've created the following registries:</p>
               <ul>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="http://honeyfund.com/weddings/EricLovesSarah">Honeyfund - Sol Mountain Lodge</a></li>
                   <li><a class="light" style="text-decoration:underline;" target="_blank" href="http://www.rei.com/GiftRegistryDetails/GR124738834">REI</a></li>
                   <li><a class="light" style="text-decoration:underline;" target="_blank"  href="http://www.crateandbarrel.com/gift-registry/eric-kenney-and-sarah-adams/r5442284">Crate &amp; Barrel</a></li>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="https://secure.williams-sonoma.com/registry/85c6kbkxt8/registry-list.html">Williams-Sonoma</a></li>
               </ul>
-        </div>
+          </div>
         <a href="#work" class="button style2 down anchored">Next</a>
       </section>
 
@@ -151,7 +156,7 @@
             <div class="container 75% gallery">
               <div class="row 0% images">
                 <div class="6u 12u(mobile)"><a href="images/fulls/mcconaughy.jpg" class="image fit from-left"><img src="images/thumbs/mcconaughy.jpg" title="Lake McConaughy" alt="" /></a></div>
-                <div class="6u 12u(mobile)"><a href="images/fulls/thailand.jpg" class="image fit from-right"><img src="images/thumbs/thailand.jpg" title="Thailand" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/blue and reese.jpg" class="image fit from-right"><img src="images/thumbs/blue and reese.jpg" title="Blue and Reese" alt="" /></a></div>
               </div>
               <div class="row 0% images">
                 <div class="6u 12u(mobile)"><a href="images/fulls/hawaii1.jpg" class="image fit from-left"><img src="images/thumbs/hawaii1.jpg" title="Hawaii" alt="" /></a></div>
