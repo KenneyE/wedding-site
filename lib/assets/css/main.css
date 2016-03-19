@@ -1226,7 +1226,7 @@ article:last-child {
     top: 0;
     width: 100%;
     height: 100%;
-    background: url("assets/images/overlay.png"); }
+    background: url("assets/css/images/overlay.png"); }
   .image img {
     display: block;
     width: 100%; }
@@ -1401,7 +1401,7 @@ button {
     height: 5em;
     line-height: 4.5em;
     padding: 0;
-    background-image: url("images/dark-arrow.svg");
+    background-image: url("css/images/heart2.svg");
     background-position: center center;
     background-repeat: no-repeat;
     text-indent: -10em;
@@ -1552,7 +1552,7 @@ button {
     .dark .button.style2:hover {
       background-color: rgba(255, 255, 255, 0.1); }
     .dark .button.style2.down {
-      background-image: url("assets/images/dark-arrow.svg"); }
+      background-image: url("assets/css/images/heart2.svg"); }
 
 /* Light */
 a.light {
@@ -1911,7 +1911,7 @@ body {
 
 /* Intro */
 #intro {
-  background: url("assets/images/overlay.png"), url("images/car1.jpg");
+  background: url("assets/css/images/overlay.png"), url("images/car1.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
@@ -1919,7 +1919,7 @@ body {
 
 /* One */
 #one {
-  background: url("assets/images/overlay.png"), url("images/MtDemocrat.jpg");
+  background: url("assets/css/images/overlay.png"), url("images/MtDemocrat.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
@@ -1933,27 +1933,27 @@ body {
 
 /* Three */
 #three {
-  background: url("assets/images/overlay.png"), url("images/house.jpg");
+  background: url("assets/css/images/overlay.png"), url("images/house.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top right, center center; }
 
 /* Four */
 #four {
-  background: url("assets/images/overlay.png"), url("images/Thailand_and_Tokyo_0080.jpg");
+  background: url("assets/css/images/overlay.png"), url("images/Thailand_and_Tokyo_0080.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
 
 /* Five */
 #five {
-  background: url("assets/images/overlay.png"), url("images/Blue1.jpg");
+  background: url("assets/css/images/overlay.png"), url("images/Blue1.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
 
 #six {
-  background: url("assets/images/overlay.png"), url("images/thailand2.jpg");
+  background: url("assets/css/images/overlay.png"), url("images/thailand2.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }

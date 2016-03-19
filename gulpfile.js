@@ -4,24 +4,37 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	sass = require('gulp-sass');
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['inline', 'copy', 'watch']);
 
-gulp.task('inline', function() {
-	gulp.src(['*.html', '*.php'])
+gulp.task('inline', ['sass'], function() {
+	return gulp.src(['lib/*.html', 'lib/*.php'])
 		.pipe(inline(
 		{
 			js: uglify,
 			css: minifyCSS
 		}))
-		.pipe(gulp.dest('dist'))
+		.pipe(gulp.dest('dist'));
+});
+
+gulp.task('copy', function() {
+	gulp.src('lib/.htaccess')
+		.pipe(gulp.dest('dist'));
+	gulp.src('lib/robots.txt')
+		.pipe(gulp.dest('dist'));
+	gulp.src('lib/images/*')
+		.pipe(gulp.dest('dist/images'));
+	gulp.src('lib/assets/fonts/*')
+		.pipe(gulp.dest('dist/assets/fonts'));
+	gulp.src('lib/assets/css/images/*')
+		.pipe(gulp.dest('dist/assets/css/images'));	
 });
 
 gulp.task('sass', function() {
-	gulp.src('assets/sass/**/*.scss')
+	return gulp.src('lib/assets/sass/**/*.scss')
 		.pipe(sass())
-		.pipe(gulp.dest('assets/css'));
+		.pipe(gulp.dest('lib/assets/css'));
 });
 
 gulp.task('watch', function() {
-	gulp.watch(['*.html', '*.php', 'assets/**/*.css'], ['sass', 'inline']);
+	return gulp.watch(['lib/*.html', 'lib/*.php', 'lib/assets/**/*.scss'], ['inline', 'copy']);
 });

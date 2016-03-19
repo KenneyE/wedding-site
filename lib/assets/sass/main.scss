@@ -196,7 +196,7 @@
       top: 0;
       width: 100%;
       height: 100%;
-      background: url('assets/images/overlay.png');
+      background: url('assets/css/images/overlay.png');
     }
 
     img {
@@ -417,7 +417,7 @@
       height: 5em;
       line-height: 4.5em;
       padding: 0;
-      background-image: url('images/dark-arrow.svg');
+      background-image: url('css/images/heart2.svg');
       background-position: center center;
       background-repeat: no-repeat;
       text-indent: -10em;
@@ -599,7 +599,7 @@
       }
 
       &.down {
-        background-image: url('assets/images/dark-arrow.svg');
+        background-image: url('assets/css/images/heart2.svg');
       }
     }
   }
@@ -815,7 +815,7 @@ a.light {
 /* Intro */
 
   #intro {
-    background: url("assets/images/overlay.png"), url("images/car1.jpg");
+    background: url("assets/css/images/overlay.png"), url("images/car1.jpg");
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, bottom center;
@@ -826,7 +826,7 @@ a.light {
 /* One */
 
   #one {
-    background: url("assets/images/overlay.png"), url("images/MtDemocrat.jpg");
+    background: url("assets/css/images/overlay.png"), url("images/MtDemocrat.jpg");
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center center;
@@ -844,7 +844,7 @@ a.light {
   /* Three */
 
     #three {
-    background: url("assets/images/overlay.png"), url("images/house.jpg");
+    background: url("assets/css/images/overlay.png"), url("images/house.jpg");
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top right, center center;
@@ -854,7 +854,7 @@ a.light {
   /* Four */
 
   #four {
-    background: url("assets/images/overlay.png"), url("images/Thailand_and_Tokyo_0080.jpg");
+    background: url("assets/css/images/overlay.png"), url("images/Thailand_and_Tokyo_0080.jpg");
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center center;
@@ -864,7 +864,7 @@ a.light {
 
 
     #five {
-      background: url("assets/images/overlay.png"), url("images/Blue1.jpg");
+      background: url("assets/css/images/overlay.png"), url("images/Blue1.jpg");
       background-size: 256px 256px, cover;
       background-attachment: fixed, fixed;
       background-position: top left, center center;
@@ -873,7 +873,7 @@ a.light {
 
 
     #six {
-      background: url("assets/images/overlay.png"), url("images/thailand2.jpg");
+      background: url("assets/css/images/overlay.png"), url("images/thailand2.jpg");
       background-size: 256px 256px, cover;
       background-attachment: fixed, fixed;
       background-position: top left, center center;
