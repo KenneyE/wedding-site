@@ -29,7 +29,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 
 </head>
-<body>
+<body class='is-loading'>
 
     <!-- Header -->
     <header id="header">
@@ -42,7 +42,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
             <ul>
                 <li><a href="#intro">Eric &amp; Sarah</a></li>
                 <li><a href="#one">About Us</a></li>
-                <li><a href="#two">The Venue</a></li>
+                <li><a href="#two">The Venue and Shuttles</a></li>
                 <li><a href="#three">Lodging</a></li>
                 <li><a href="#four">Crested Butte</a></li>
                 <li><a href="#five">Activities</a></li>
@@ -53,6 +53,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         </nav>
 
     </header>
+
       <?php
         include('rsvp-thanks-include.php');
       ?>
@@ -72,10 +73,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
       <section id="two" class="main style2 right dark fullscreen">
         <div class="content box style2">
           <header>
-            <h2>The Venue</h2>
+            <h2>The Venue and Shuttles</h2>
           </header>
-          <p>We're getting married at the <strong>Ten Peaks Event Site</strong> at <strong>Crested Butte Mountain Resort</strong>. You won't be able to drive yourself to the venue, so shuttles will be running throughout the evening to run you up and down the hill.<br />
-              Stay tuned for details on times and locations of pickups.</p>
+          <p>We're getting married at the <strong>Ten Peaks Event Site</strong> at <strong>Crested Butte Mountain Resort</strong>. You won't be able to drive to the venue, so shuttles will be running up and down throughout the evening.<br />
+              If you are staying in town, only one shuttle will be leaving from <strong>CB 4-Way</strong> bus stop (<a class='light' target='_blank' style='text-decoration:underline' href='https://goo.gl/maps/NFxsQd3fiYn'>found here!)</a> in town at <strong>3 PM</strong>. BE ON IT! If you're staying at the base of the mountain, there will be shuttles at <strong>3:10 and 3:30</strong> from <strong>Lodge at Mountaineer Square</strong>. </br>
+              Return shuttles will run from 9 PM to the end of the night.</p>
         </div>
         <a href="#three" class="button style2 down anchored">Next</a>
       </section>
@@ -85,16 +87,14 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <div class="content box style2">
             <h2>Lodging</h2>
           </header>
-          <p>Guests will receive <strong>15-20&#37;</strong> off rooms at Crested Butte Mountain Resorts if booked before <strong>July 13, 2016</strong>.
+          <p>Guests will receive <strong>15-20&#37;</strong> off rooms at Crested Butte Mountain Resorts if booked before <strong>July 13, 2016</strong>. Most people will be staying at the Lodge at Mountaineer Square or Grand Lodge.
               <br />
-              For lodging, go to: <strong><a class="light" href="http://www.skicb.com/lodging" target="_blank">http://www.skicb.com/lodging</a></strong><br />
-        Every guest that stays with the resort gets a free lift ticket!
-    </p>
-    <p>
-          To Book:<br />
+              Go to <strong><a class="light" href="http://www.skicb.com/lodging" target="_blank">http://www.skicb.com/lodging</a></strong> and call to book. Every guest that stays with the resort gets a free lift ticket!
+              <br />
+          <strong>To Book:</strong><br />
           Call: <strong><a href="tel:8443742148" class="light" target="_blank">(844) 374-2148</a></strong><br />
           Email: <strong><a href="mailto:info@cbmr.com" class="light" target="_blank">info@cbmr.com</a></strong><br />
-          Online: <strong><a href="http://www.skicb.com/mygroup" class="light" target="_blank">http://www.skicb.com/mygroup</a></strong> Package Code: <strong>9051</strong><br />
+</strong> Package Code: <strong>9051</strong><br />
           </p>
         </div>
         <a href="#four" class="button style2 down anchored">Next</a>
@@ -104,9 +104,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
       <section id="four" class="main style2 right dark fullscreen">
         <div class="content box style2">
           <header>
-            <h2>About Crested Butte</h2>
+            <h2>About Crested Butte and Getting There</h2>
           </header>
-          <p>Crested Butte sits at 8,909 ft. in southwestern Colorado. The highs in August are usually around 74&deg; with lows around 38&deg;. Expect the temperatures during the wedding to be around 70&deg; and drop to mid 60s after sunset. <br />
+          <p>Crested Butte sits at <strong>8,909 ft.</strong> in southwestern Colorado. The highs in August are usually around 74&deg; with lows around 38&deg;. Expect the temperatures during the wedding to be around 70&deg; and drop to mid 60s after sunset. <br />
         If coming from out of state, you can fly into Denver International Airport. From there, the drive to Crested Butte is 4.5 hours. You can also fly into the Gunnison-Crested Butte Regional Airport, which is only 40 minutes from town. </p>
         </div>
         <a href="#five" class="button style2 down anchored">Next</a>
@@ -181,7 +181,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <div class="content container">
           <header>
             <h2>RSVP</h2>
-            <p>Please let us know by June 30 whether or not you'll be able to make it.</p>
+            <p>Please let us know by <strong>July 15</strong> whether or not you'll be able to make it.</p>
           </header>
 
           <div class="box container 75%">
@@ -200,16 +200,24 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
                   <!-- Attending -->
                   <div class="12u 12u(mobile)">
-                      <h4>Will You be Attending?</h4>
-                      <input type="radio" name="attending" value="Yes"/>Yes<br>
-                      <input type="radio" name="attending" value="No" />No<br>
+                      <h2>Will You be Attending?</h2>
+                      <input type="radio" name="attending" value="Yes"/>Heck Yes!<br>
+                      <input type="radio" name="attending" value="No" />Sadly, No<br>
                   </div>
 
                   <div class="12u 12u(mobile)">
-                      <h4>What are you eating?</h4>
-                      <input type="radio" name="food" value="Steak"/>Steak<br>
-                      <input type="radio" name="food" value="Fish" />Fish<br>
-                      <input type="radio" name="food" value="Veggie" />Vegeterian<br>
+                      <h2>What would you like to eat?</h2>
+                      <input type="radio" name="food" value="Steak"/><strong>Beef Tenderloin</strong> with a Wild Mushroom Glace</br>
+                      <input type="radio" name="food" value="Fish" /><strong>Hazelnut Encrusted Ruby Red Trout</strong> with a Juniper Berry Merlot Reduction</br>
+                      <input type="radio" name="food" value="Veggie" /><strong>Acorn Squash</strong> stuffed with Quinoa and Roasted Vegetables</br>
+                  </div>
+
+                  <div class="12u 12u(mobile)">
+                      <h2>Attending Friday's Welcome Party?</h2>
+                      <p>We will be holding a welcome party Friday Aug. 26th at our house beginning at 6 PM. We'll have food and drink! This is not a binding RSVP, we'd just like to get an general idea.</br>
+                        <input type="radio" name="attending-friday" value="Yes"/>Yep!<br>
+                        <input type="radio" name="attending-friday" value="No" />Nah<br>
+                    </p>
                   </div>
                 </div>
                 <div class="row 50%">
@@ -230,7 +238,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
     <!-- Footer -->
       <footer id="footer">
-
         <!-- Icons -->
           <!-- <ul class="actions">
             <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>

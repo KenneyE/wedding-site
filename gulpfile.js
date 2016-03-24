@@ -21,7 +21,7 @@ gulp.task('copy', function() {
 		.pipe(gulp.dest('dist'));
 	gulp.src('lib/robots.txt')
 		.pipe(gulp.dest('dist'));
-	gulp.src('lib/images/*')
+	gulp.src('lib/images/**/*')
 		.pipe(gulp.dest('dist/images'));
 	gulp.src('lib/assets/fonts/*')
 		.pipe(gulp.dest('dist/assets/fonts'));
@@ -36,5 +36,5 @@ gulp.task('sass', function() {
 });
 
 gulp.task('watch', function() {
-	return gulp.watch(['lib/*.html', 'lib/*.php', 'lib/assets/**/*.scss'], ['inline', 'copy']);
+	return gulp.watch(['lib/*.html', 'lib/*.php', 'lib/assets/**/*.scss', 'lib/assets/**/*.js'], ['inline', 'copy']);
 });

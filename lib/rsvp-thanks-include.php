@@ -8,6 +8,7 @@
             $recipient = 'ekenney5@gmail.com';
             $name = $_POST['name'];
             $attending= $_POST['attending'];
+            $attending_friday= $_POST['attending-friday'];
             $food = $_POST['food'];
             $notes = $_POST['notes'];
             $email = "ekenney5@gmail.com";
@@ -16,6 +17,7 @@
             $body = "Names: " . $name . "\r\n\r\n" .
               "Attending: " . $attending . "\r\n\r\n" .
                 "Food Options: " . $food . "\r\n\r\n" .
+                  "Attending Friday: " . $attending_friday . "\r\n\r\n" .
                   "Notes: " . $notes;
 
 
@@ -55,7 +57,7 @@
               $subject,
               $body,
               "From: Wedding RSVP <$email>\r\n");
-              echo("<h2>Thanks for the RSVP!</h2>");
+              echo("<h2>Thanks for the RSVP!</h2><h3>Need to RSVP for another person? Scroll down and do it again!</h3>");
             }
             ?>
           </header>
