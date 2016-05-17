@@ -4,14 +4,17 @@ var gulp = require('gulp'),
 	uglify = require('gulp-uglify'),
 	sass = require('gulp-sass');
 
-gulp.task('default', ['inline', 'copy', 'watch']);
+gulp.task('default', ['build', 'watch']);
+
+gulp.task('build', ['inline', 'copy']);
 
 gulp.task('inline', ['sass'], function() {
 	return gulp.src(['lib/*.html', 'lib/*.php'])
 		.pipe(inline(
 		{
 			js: uglify,
-			css: minifyCSS
+			css: minifyCSS,
+            disabledTypes: ['img']
 		}))
 		.pipe(gulp.dest('dist'));
 });

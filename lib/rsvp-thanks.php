@@ -40,7 +40,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <!-- Nav -->
         <nav id="nav">
             <ul>
-                <li><a href="#intro">Eric &amp; Sarah</a></li>
                 <li><a href="#one">About Us</a></li>
                 <li><a href="#two">The Venue and Shuttles</a></li>
                 <li><a href="#three">Lodging</a></li>
@@ -64,7 +63,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
           <header>
             <h2>About Us</h2>
           </header>
-          <p>Eric and Sarah met at the University of Colorado in Boulder in 2008. Less than a year later, they started dating. After college, Eric and Sarah moved to Denver where they shared their first apartment with the dog known as The Majestic Blue. In 2015, they bought a home together and adopted Blue's best friend, Sweet Baby Reese. Now Sarah and Eric enjoy their time with friends, family, cooking, hiking, camping, 1995 Ford Broncos, and skiing.</p>
+          <p>Eric and Sarah met at the University of Colorado in Boulder in 2008. Less than a year later, they started dating. After college, Eric and Sarah moved to Denver where they shared their first apartment with their dog known as The Majestic Blue. In 2015, they bought a home together and adopted Blue's best friend, Sweet Baby Reese. Now Sarah and Eric enjoy their time with friends, family, cooking, hiking, camping, 1995 Ford Broncos, and skiing.</p>
         </div>
         <a href="#two" class="button style2 down anchored">Next</a>
       </section>
@@ -87,7 +86,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <div class="content box style2">
             <h2>Lodging</h2>
           </header>
-          <p>Guests will receive <strong>15-20&#37;</strong> off rooms at Crested Butte Mountain Resorts if booked before <strong>July 13, 2016</strong>. Most people will be staying at the Lodge at Mountaineer Square or Grand Lodge.
+          <p>Guests of the Adams-Kenney will receive <strong>15-20&#37;</strong> off rooms at Crested Butte Mountain Resorts if booked before <strong>July 13, 2016</strong>. Most people will be staying at the Lodge at Mountaineer Square or the Grand Lodge.
               <br />
               Go to <strong><a class="light" href="http://www.skicb.com/lodging" target="_blank">http://www.skicb.com/lodging</a></strong> and call to book. Every guest that stays with the resort gets a free lift ticket!
               <br />
@@ -97,7 +96,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 </strong> Package Code: <strong>9051</strong><br />
           </p>
         </div>
-        <a href="#four" class="button style2 down anchored">Next</a>
+        <a href="#party" class="button style2 down anchored">Next</a>
+      </section>
+
+    <!-- Three -->
+      <section id="party" class="main style2 right dark fullscreen">
+        <div class="content box style2">
+            <h2>Friday Night Welcome Party</h2>
+          </header>
+
+        </div>
+        <a href="#five" class="button style2 down anchored">Next</a>
       </section>
 
     <!-- Four -->
@@ -214,7 +223,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
                   <div class="12u 12u(mobile)">
                       <h2>Attending Friday's Welcome Party?</h2>
-                      <p>We will be holding a welcome party Friday Aug. 26th at our house beginning at 6 PM. We'll have food and drink! This is not a binding RSVP, we'd just like to get an general idea.</br>
+                      <p>We will be holding a welcome party Friday Aug. 26th at 720 Gothic Rd. in Crested Butte beginning at 6 PM. We'll have food and drink! This is not a binding RSVP, we'd just like to get a general idea.</br>
                         <input type="radio" name="attending-friday" value="Yes"/>Yep!<br>
                         <input type="radio" name="attending-friday" value="No" />Nah<br>
                     </p>
