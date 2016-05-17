@@ -99,16 +99,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <a href="#party" class="button style2 down anchored">Next</a>
       </section>
 
-    <!-- Three -->
-      <section id="party" class="main style2 right dark fullscreen">
-        <div class="content box style2">
-            <h2>Friday Night Welcome Party</h2>
-          </header>
-
-        </div>
-        <a href="#five" class="button style2 down anchored">Next</a>
-      </section>
-
     <!-- Four -->
       <section id="four" class="main style2 right dark fullscreen">
         <div class="content box style2">
@@ -139,7 +129,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
               <header>
                   <h2>Registries</h2>
               </header>
-              <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we are asking for. If you still wish to give a gift, we've created the following registries:</p>
+              <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we are asking for. If you still wish to give a gift, we've created the following registries, including a fund for our honeymoon trip to Sol Mountain Lodge:</p>
               <ul>
                   <li><a class="light" style="text-decoration:underline;" target="_blank"  href="http://honeyfund.com/weddings/EricLovesSarah">Honeyfund - Sol Mountain Lodge</a></li>
                   <li><a class="light" style="text-decoration:underline;" target="_blank" href="http://www.rei.com/GiftRegistryDetails/GR124738834">REI</a></li>
