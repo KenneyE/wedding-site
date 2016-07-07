@@ -34,7 +34,7 @@
             if (preg_match('/^\s*$/', $attending)) {
               $messages[] = "You didn't tell us if you're attending!";
             }
-            if (preg_match('/^\s*$/', $food)) {
+            if ($attending == 'Yes' && preg_match('/^\s*$/', $food)) {
               $messages[] = "You didn't tell us what you're eating!";
             }
             if (count($messages)) {
