@@ -6,26 +6,15 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 -->
 <html>
 <head>
-    <title>Eric Kenney &amp; Sarah Adams Wedding</title>
+    <title>Eric &amp; Sarah Wedding</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Eric Kenney And Sarah Adams - Crested Butte Wedding 2016">
+    <meta name="description" content="Eric And Sarah - Crested Butte Wedding 2018">
     <meta name="language" content="english">
     <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
     <link rel="stylesheet" href="assets/css/main.css" />
     <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
     <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-35811349-4', 'auto');
-    ga('send', 'pageview');
-
-    </script>
 
 
 </head>
@@ -63,7 +52,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
           <header>
             <h2>About Us</h2>
           </header>
-          <p>Eric and Sarah met at the University of Colorado in Boulder in 2008. Less than a year later, they started dating. After college, Eric and Sarah moved to Denver where they shared their first apartment with their dog known as The Majestic Blue. In 2015, they bought a home together and adopted Blue's best friend, Sweet Baby Reese. Now Sarah and Eric enjoy their time with friends, family, cooking, hiking, camping, 1995 Ford Broncos, and skiing.</p>
+          <p>Eric and Sarah met at the University of Colorado in Boulder in 2017. Less than a year later, they started dating. After college, Eric and Sarah moved to Boston where they shared their first apartment with their dog known as The Majestic Blue. In 2018, they bought a home together and adopted Blue's best friend, Sweet Baby Reese. Now Sarah and Eric enjoy their time with friends, family, cooking, hiking, camping, 1995 Ford Broncos, and skiing.</p>
         </div>
         <a href="#two" class="button style2 down anchored">Next</a>
       </section>
@@ -74,8 +63,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
           <header>
             <h2>The Venue and Shuttles</h2>
           </header>
-          <p>We're getting married at the <strong>Ten Peaks Event Site</strong> at <strong>Crested Butte Mountain Resort</strong>. You won't be able to drive to the venue, so shuttles will be running up and down throughout the evening.<br />
-              If you are staying in town, only one shuttle will be leaving from <strong>CB 4-Way</strong> bus stop (<a class='light' target='_blank' style='text-decoration:underline' href='https://goo.gl/maps/NFxsQd3fiYn'>found here!)</a> in town at <strong>3 PM</strong>. BE ON IT! If you're staying at the base of the mountain, there will be shuttles at <strong>3:10 and 3:30</strong> from <strong>Lodge at Mountaineer Square</strong>. </br>
+          <p>We're getting married at the <strong>Central City Event Site</strong> at <strong>Crested Butte Mountain Resort</strong>. You won't be able to drive to the venue, so shuttles will be running up and down throughout the evening.<br />
+              If you are staying in town, only one shuttle will be leaving from XYZ bus stop in town at <strong>2:50 PM</strong>. BE ON IT! If you're staying at the base of the mountain, there will be shuttles at <strong>3:00 and 3:30</strong> from <strong>Lodge at Mountaineer Square</strong>. </br>
               Return shuttles will run from 9 PM to the end of the night.</p>
         </div>
         <a href="#three" class="button style2 down anchored">Next</a>
@@ -86,14 +75,13 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         <div class="content box style2">
             <h2>Lodging</h2>
           </header>
-          <p>Guests of the Adams-Kenney will receive <strong>15-20&#37;</strong> off rooms at Crested Butte Mountain Resorts if booked before <strong>July 13, 2016</strong>. Most people will be staying at the Lodge at Mountaineer Square or the Grand Lodge.
+          <p>Many people will be staying at the Lodge. There's also plenty of VRBO and AirBnB options, but we recommend being near the Lodge or in town for shuttles to the wedding.
               <br />
-              Go to <strong><a class="light" href="http://www.skicb.com/lodging" target="_blank">http://www.skicb.com/lodging</a></strong> and call to book. Every guest that stays with the resort gets a free lift ticket!
+              Go to <strong><a class="light" href="#" target="_blank">http://www.example.com/lodging</a></strong> and call to book. Every guest that stays with the resort gets a free lift ticket!
               <br />
           <strong>To Book:</strong><br />
-          Call: <strong><a href="tel:8443742148" class="light" target="_blank">(844) 374-2148</a></strong><br />
-          Email: <strong><a href="mailto:info@cbmr.com" class="light" target="_blank">info@cbmr.com</a></strong><br />
-</strong> Package Code: <strong>9051</strong><br />
+          Call: <strong><a href="tel:123456" class="light" target="_blank">(303) 555-1234</a></strong><br />
+          Email: <strong><a href="mailto:test@example.com" class="light" target="_blank">test@example.com</a></strong><br />
           </p>
         </div>
         <a href="#party" class="button style2 down anchored">Next</a>
@@ -129,12 +117,12 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
               <header>
                   <h2>Registries</h2>
               </header>
-              <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we are asking for. If you still wish to give a gift, we've created the following registries, including a fund for our honeymoon trip to Sol Mountain Lodge:</p>
+              <p>We know that travelling to Crested Butte takes time, effort, and money, so please know that making it to our wedding is the only gift we are asking for. If you still wish to give a gift, we've created the following registries, including a fund for our honeymoon trip:</p>
               <ul>
-                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="http://honeyfund.com/weddings/EricLovesSarah">Honeyfund - Sol Mountain Lodge</a></li>
-                  <li><a class="light" style="text-decoration:underline;" target="_blank" href="http://www.rei.com/GiftRegistryDetails/GR124738834">REI</a></li>
-                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="http://www.crateandbarrel.com/gift-registry/eric-kenney-and-sarah-adams/r5442284">Crate &amp; Barrel</a></li>
-                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="https://secure.williams-sonoma.com/registry/85c6kbkxt8/registry-list.html">Williams-Sonoma</a></li>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="#">Honeyfund</a></li>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank" href="#">REI</a></li>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="#">Crate &amp; Barrel</a></li>
+                  <li><a class="light" style="text-decoration:underline;" target="_blank"  href="#">Williams-Sonoma</a></li>
               </ul>
           </div>
         <a href="#work" class="button style2 down anchored">Next</a>
@@ -153,22 +141,16 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
           <!-- Lightbox Gallery  -->
             <div class="container 75% gallery">
               <div class="row 0% images">
-                <div class="6u 12u(mobile)"><a href="images/fulls/mcconaughy.jpg" class="image fit from-left"><img src="images/thumbs/mcconaughy.jpg" title="Lake McConaughy" alt="" /></a></div>
-                <div class="6u 12u(mobile)"><a href="images/fulls/blue and reese.jpg" class="image fit from-right"><img src="images/thumbs/blue and reese.jpg" title="Blue and Reese" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit from-left"><img src="images/thumbs/01.jpg" title="Lake McConaughy" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit from-right"><img src="images/thumbs/02.jpg" title="Blue and Reese" alt="" /></a></div>
               </div>
               <div class="row 0% images">
-                <div class="6u 12u(mobile)"><a href="images/fulls/hawaii1.jpg" class="image fit from-left"><img src="images/thumbs/hawaii1.jpg" title="Hawaii" alt="" /></a></div>
-                <div class="6u 12u(mobile)"><a href="images/fulls/balloon_fiesta.jpg" class="image fit from-right"><img src="images/thumbs/balloon_fiesta.jpg" title="Balloon Fiesta" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit from-left"><img src="images/thumbs/03.jpg" title="Hawaii" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit from-right"><img src="images/thumbs/04.jpg" title="Balloon Fiesta" alt="" /></a></div>
               </div>
               <div class="row 0% images">
-                <div class="6u 12u(mobile)"><a href="images/fulls/chiang_mai.jpg" class="image fit from-left"><img src="images/thumbs/chiang_mai.jpg" title="Chiang Mai" alt="" /></a></div>
-                <div class="6u 12u(mobile)"><a href="images/fulls/phiphi.jpg" class="image fit from-right"><img src="images/thumbs/phiphi.jpg" title="Kho Phi Phi" alt="" /></a></div>
-              </div>
-              <div class="row 0% images">
-                <div class="6u 12u(mobile)"><a href="images/fulls/hawaii_balcony.jpg" class="image fit from-left"><img src="images/thumbs/hawaii_balcony.jpg" title="Honolulu" alt="" /></a></div>
-                <div class="6u 12u(mobile)"><a href="images/fulls/luminarias.jpg" class="image fit from-right"><img src="images/thumbs/luminarias.jpg" title="Albuquerque Luminarias" alt="" /></a></div>
-              </div>
-              <div class="row 0% images">
+                <div class="6u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit from-left"><img src="images/thumbs/05.jpg" title="Chiang Mai" alt="" /></a></div>
+                <div class="6u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit from-right"><img src="images/thumbs/06.jpg" title="Kho Phi Phi" alt="" /></a></div>
               </div>
             </div>
 
@@ -185,7 +167,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
           <div class="box container 75%">
           <!-- RSVP Form -->
-              <form method="POST" action="rsvp-thanks.php">
+              <!-- <form method="POST" action=""> -->
+            <form method="" action="#">
                 <div class="row 50%">
                   <div class="12u 12u(mobile)"><input type="text" name="name" placeholder="Name" /></div>
 
@@ -213,7 +196,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
                   <div class="12u 12u(mobile)">
                       <h2>Attending Friday's Welcome Party?</h2>
-                      <p>We will be holding a welcome party Friday Aug. 26th at 720 Gothic Rd. in Crested Butte beginning at 6 PM. We'll have food and drink! This is not a binding RSVP, we'd just like to get a general idea.</br>
+                      <p>We will be holding a welcome party Friday Aug. 15th at 123 Some Rd. in Crested Butte beginning at 6 PM. We'll have food and drink! This is not a binding RSVP, we'd just like to get a general idea.</br>
                         <input type="radio" name="attending-friday" value="Yes"/>Yep!<br>
                         <input type="radio" name="attending-friday" value="No" />Nah<br>
                     </p>
@@ -225,7 +208,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                 <div class="row">
                   <div class="12u">
                     <ul class="actions">
-                      <li><input type="submit" value="Send RSVP" /></li>
+                      <li><input type="submit" value="Send RSVP" disabled/></li>
                     </ul>
                   </div>
                 </div>

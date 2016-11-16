@@ -2,18 +2,17 @@
       <section id="intro" class="main style1 dark fullscreen">
         <div class="content container 75%">
           <header>
-            <!-- <h2>Eric &amp; Sarah</h2> -->
             <?php
             // Change this to YOUR address
-            $recipient = 'ekenney5@gmail.com';
+            $recipient = 'you@gmail.com';
             $name = $_POST['name'];
             $attending= $_POST['attending'];
             $attending_friday= $_POST['attending-friday'];
             $food = $_POST['food'];
             $notes = $_POST['notes'];
-            $email = "ekenney5@gmail.com";
+            $email = "you@gmail.com";
 
-            $subject = "RSVP from EricLovesSarah.com!";
+            $subject = "RSVP from JimLovesJen.com!";
             $body = "Names: " . $name . "\r\n\r\n" .
               "Attending: " . $attending . "\r\n\r\n" .
                 "Food Options: " . $food . "\r\n\r\n" .
@@ -38,7 +37,7 @@
               $messages[] = "You didn't tell us what you're eating!";
             }
             if (count($messages)) {
-              $subject = "INCOMPLETE RSVP from EricLovesSarah.com";
+              $subject = "INCOMPLETE RSVP from JimLovesJen.com";
               mail($recipient,
               $subject,
               $body,
