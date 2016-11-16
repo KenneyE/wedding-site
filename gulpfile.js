@@ -16,20 +16,20 @@ gulp.task('inline', ['sass'], function() {
 			css: minifyCSS,
             disabledTypes: ['img']
 		}))
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('docs'));
 });
 
 gulp.task('copy', function() {
 	gulp.src('lib/.htaccess')
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('docs'));
 	gulp.src('lib/robots.txt')
-		.pipe(gulp.dest('dist'));
+		.pipe(gulp.dest('docs'));
 	gulp.src('lib/images/**/*')
-		.pipe(gulp.dest('dist/images'));
+		.pipe(gulp.dest('docs/images'));
 	gulp.src('lib/assets/fonts/*')
-		.pipe(gulp.dest('dist/assets/fonts'));
+		.pipe(gulp.dest('docs/assets/fonts'));
 	gulp.src('lib/assets/css/images/*')
-		.pipe(gulp.dest('dist/assets/css/images'));	
+		.pipe(gulp.dest('docs/assets/css/images'));	
 });
 
 gulp.task('sass', function() {
